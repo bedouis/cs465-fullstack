@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-var trips = JSON.parse(fs.readFileSync('./data/trips.json', 'utf8'));
+var trips = JSON.parse(fs.readFileSync('./app_server/data/trips.json', 'utf8'));
 
 
 /* GET travel view */
