@@ -1,6 +1,7 @@
 const fs = require('fs');
 
-const trips = JSON.parse(fs.readFileSync('./data/trips.json', 'utf8'));
+// app_server/controllers/travel.js
+const trips = require('mongoose').model('trips');
 
 
 
